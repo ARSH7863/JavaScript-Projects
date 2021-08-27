@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./doctor-strange-magic-circle-thumb-1500x844.jpg');
+  /* background: url(https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c25vd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+    no-repeat center center fixed; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top: 15rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+}
